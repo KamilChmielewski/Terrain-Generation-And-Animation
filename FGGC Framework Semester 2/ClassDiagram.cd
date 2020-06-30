@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Appearance">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAJEAAGAIAAgAAAEAAAAAAAgAQAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Appearance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Application" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCyACCJCHBuAAxoEMiEEAwABCAACAIOEkAREAOJAQQI=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQOAQACACAAQAgAQAAAIAIKgAAAA0SAACABAIIAQQA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionDetection">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAABAAAAA=</HashCode>
+      <FileName>CollisionDetection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JBQIJEAEEAGQAoQAAUhQAAwAQgAQAAkACAgABAIAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Particle">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwCCAAFALIECAgAAQAAAAAAAACAAEAAgAQAgQQAAQE=</HashCode>
+      <FileName>Particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleSystem">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAACAAAAQAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParticleSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidBody">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQEAKCQAAMGMAgQAQBCAAEBAAEEAQAAAFJBmSAQCUE=</HashCode>
+      <FileName>RigidBody.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transform">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEECCAAAIQAABAAAUQAAABAggAIEIAggAAgOA=</HashCode>
+      <FileName>Transform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector3D">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQEAAAAAAiAAAIAAAAUAAAwAAAAhEAABgA0EEAAA=</HashCode>
+      <FileName>Vector3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quaternion">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAoAEBAgAQEAA=</HashCode>
+      <FileName>Vector3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionResolution">
+    <Position X="12.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgAAAAAAAAAAABAAAAAAAAAAQAAAAAgAAAA=</HashCode>
+      <FileName>CollisionResolution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GravityGenerator">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAFAAABAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>GravityGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleForceGenerator" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>ParticleForceGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaminarGenerator">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAAABAQAAACAAIAAA=</HashCode>
+      <FileName>LaminarGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TurbulentGenerator">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAQAAAAAAIAAA=</HashCode>
+      <FileName>TurbulentGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CollisionPrimitive" Collapsed="true">
+    <Position X="1.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEQAAAAAAAAAAA=</HashCode>
+      <FileName>Vector3D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Sphere" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAA=</HashCode>
+      <FileName>Vector3D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Plane" Collapsed="true">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Vector3D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

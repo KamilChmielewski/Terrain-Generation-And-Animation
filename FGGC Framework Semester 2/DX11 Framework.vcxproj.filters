@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{84a4d56f-682d-4b12-a7c9-064cc08bce09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{7406e4e6-401c-4ee5-b109-f14480e55d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{5ba2dd10-5ca9-4d1c-bbe6-da61499f7893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Generators">
+      <UniqueIdentifier>{4252e786-9836-443f-8f39-ce3fdb71566d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Generators">
+      <UniqueIdentifier>{3119316e-f652-465b-b648-91fa45e42de7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Appearance.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleForceRegistry.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleForceGenerator.h">
+      <Filter>Headers\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityGenerator.h">
+      <Filter>Headers\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="LaminarGenerator.h">
+      <Filter>Headers\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="TurbulentGenerator.h">
+      <Filter>Headers\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionResolution.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffers.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticTerrain.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticTerrain2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DiamondSquare.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplexNoise.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Voxel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="temp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5Loader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalAnimation.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Appearance.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleForceRegistry.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityGenerator.cpp">
+      <Filter>Sources\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="LaminarGenerator.cpp">
+      <Filter>Sources\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="TurbulentGenerator.cpp">
+      <Filter>Sources\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionResolution.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticTerrain.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticTerrain2.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DiamondSquare.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplexNoise.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Voxel.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5Loader.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalAnimation.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX11 Framework.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="DX11 Framework.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="InstanceShader.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="ModelShader.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\floor.dds">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Resources\stone.dds">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="packages.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+</Project>

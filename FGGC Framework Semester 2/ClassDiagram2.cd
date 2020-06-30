@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Appearance" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEJEAAGAIAAgAAAEAAAAAAAgAQAAAACAAAAABAAAE=</HashCode>
+      <FileName>Appearance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Application" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCygCCJSHBuAAxoEMiEEAwARKAACAJOEkARFAOJAQQI=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQOAQACACAAQAgAQAAAIAIKgAAAA0SAACABAIIAQQA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiamondSquare">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAEAAACACAAAYAEAAAAABAABIAAAAAAAAAAEIAAAQ=</HashCode>
+      <FileName>DiamondSquare.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplexNoise">
+    <Position X="18.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAgAAAAAAAAwAAAAAUAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SimplexNoise.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkeletalAnimation">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAACAAAAAAwBAAAAIAAIAAAAAABAAAAIAQAA=</HashCode>
+      <FileName>SkeletalAnimation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StaticTerrain">
+    <Position X="8.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACSAJAAQABCAAQAARQBAAAAgAgABAohAABEIBQCwIAA=</HashCode>
+      <FileName>StaticTerrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StaticTerrain2">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASABAAQCACAAAAAgQBAAAAgAAAAAwkAEBAEBAAwAAA=</HashCode>
+      <FileName>StaticTerrain2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transform">
+    <Position X="16.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEECCAAAIQAABAAAUQAAABAggAIEIAggAAgPA=</HashCode>
+      <FileName>Transform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Voxel">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAICAAAAIAAAQAQAAAgAAAAAAABAEBAgAAAA=</HashCode>
+      <FileName>Voxel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Geometry" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAQAAAABAAIAQAAAAACAAAAAA=</HashCode>
+      <FileName>Appearance.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="InstanceType" Collapsed="true">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Appearance.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Material" Collapsed="true">
+    <Position X="11.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAAAAABAAAA=</HashCode>
+      <FileName>Appearance.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SimpleVertex" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAIAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SurfaceInfo" Collapsed="true">
+    <Position X="11.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>ConstantBuffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Light" Collapsed="true">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAYAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>ConstantBuffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ConstantBuffer" Collapsed="true">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAEBAAAAAAAAQAAAAAAAIBAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ConstantBuffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TerrainVertex" Collapsed="true">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAACIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaticTerrain.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex" Collapsed="true">
+    <Position X="16.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>StaticTerrain.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HeightMapType">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAIAAAAAAAAAAAAAQABgAQAAARA=</HashCode>
+      <FileName>StaticTerrain.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TerrainVertex2" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAACIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaticTerrain2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex2" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>StaticTerrain2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ModelVertex" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAIgAAAAAAAAAAgIAAAAAgAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Joint">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAgIAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AnimJointInfo">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAEAAAAAACAAAAAAAQ=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ModelAnimation">
+    <Position X="14.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgCAAEAACAAAAIAAAQAAABIIAACAAAAAAAgAAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Weight">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAIgAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ModelSubset" Collapsed="true">
+    <Position X="16.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggAQAAAAAAgAAAAAAAAIABAAAAQQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Model3D" Collapsed="true">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAACAABCEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
